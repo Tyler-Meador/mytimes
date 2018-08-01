@@ -45,17 +45,29 @@ nav span{
 
 .column-container{
   display: flex;
+  padding-top: 120px;
+  width: 1250px;
+  margin: 0 auto;
 }
 
-.column-large{
+div{
+  border: 1px solid black;
+}
+
+.column{
   display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.column.large{
   width: 630px;
 }
 
-.column-medium{
+.column.medium{
   width: 300px;
 }
 
-.column-small{
+.column.small{
   width: 240px;
 }

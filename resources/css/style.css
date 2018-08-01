@@ -1,131 +1,61 @@
-body{
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
+*{
   margin: 0;
+  padding: 0;
 }
-header{
+
+header {
   display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  border-bottom: 1px solid black;
-  position: fixed;
-  width: 100%;
   align-items: center;
+  position: fixed;
   z-index: 1;
+  width: 100%;
   height: 80px;
   background-color: white;
+  border-bottom: 1px solid black;
 }
 
 .logo{
   display: flex;
   align-items: center;
   flex-grow: 1;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 .logo img{
+  width: 70px;
+  height: 60px;
   margin-right: 10px;
 }
 
 .logo span{
-    color: MediumAquamarine;
+  color: MediumAquamarine;
 }
-
-.header nav{
-  padding-right: 30px;
+nav{
+  display: flex;
+  padding-right: 40px;
 }
 
 nav span{
+  display: inline-flex;
   padding: 10px 10px;
-  display: inline-block;
 }
 
-.main{
+.column-container{
   display: flex;
-  margin: 0px auto 50px auto;
-  padding-top: 100px;
-  width: 1260px;
-
 }
 
-div{
-  border: 1px solid black;
-
-}
-
-.column.large{
+.column-large{
+  display: flex;
   width: 630px;
 }
 
-.column{
-  display: flex;
-  flex-direction: column;
-  margin-right: 25px;
-
-}
-
-.column.medium{
+.column-medium{
   width: 300px;
 }
 
-.column.small{
+.column-small{
   width: 240px;
-}
-.stories span{
-  font-family: Georgie;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-}
-
-.imgtuna{
-  background-image: url("../images/mainstory.png");
-  width: 630px;
-  margin-top: 0;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 300px;
-}
-
-.imgtuna span{
-  margin-left: 20px;
-  font-size: 40px;
-  font-family: Georgia;
-  font-weight: bold;
-  color: white;
-}
-
-.imgearth{
-  background-image: url("../images/story2.png");
-  height: 300px;
-  text-align: center;
-  flex-direction: column;
-}
-
-.imgcamera{
-  background-image: url("../images/camera.png");
-  height: 300px;
-  text-align: center;
-}
-
-.imgcat{
-  background-image: url("../images/cat.png");
-  height: 300px;
-  text-align: center;
-}
-
-.stories{
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-
-.news{
-  height: 250px;
 }

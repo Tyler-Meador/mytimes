@@ -15,7 +15,6 @@
   align-items: center;
   flex-grow: 1;
   padding-left: 20px;
-  border: 1px solid black;
 }
 .logo img{
   margin-right: 10px;
@@ -36,21 +35,31 @@ nav span{
 
 .main{
   display: flex;
-  margin: 0 auto;
+  margin: 0px auto;
   padding-top: 116px;
+  width: 1500px;
+}
+
+div{
+  border: 1px solid black;
+
 }
 
 .column-large{
   display: flex;
   flex-direction: column;
+  margin-right: 20px;
+
 }
 
 .column-medium{
   display: flex;
   flex-direction: column;
+  margin-right: 20px;
 }
 
 .column-small{
   display: flex;
   flex-direction: column;
+  margin-right: 20px;
 }

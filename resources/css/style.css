@@ -1,6 +1,5 @@
-*{
+body{
   margin: 0;
-  padding: 0;
 }
 
 header {
@@ -47,12 +46,10 @@ nav span{
   display: flex;
   padding-top: 120px;
   width: 1250px;
-  margin: 0 auto;
+  margin: 0 auto 100px auto;
 }
 
-div{
-  border: 1px solid black;
-}
+
 
 .column{
   display: flex;
@@ -70,4 +67,59 @@ div{
 
 .column.small{
   width: 240px;
+}
+
+.img-item{
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+
+.lead-story.img-item{
+  background-image: url("../images/mainstory.png");
+  font-size: 40px;
+  text-align: left;
+}
+
+.earthspins.img-item{
+  background-image: url("../images/story2.png");
+}
+
+.cameras.img-item{
+  background-image: url("../images/camera.png");
+}
+
+.controlkitten.img-item{
+  background-image: url("../images/cat.png");
+}
+
+.stories{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.story{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.stories .news-content{
+  height: 250px;
+}
+
+.cookie-news h3{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.snip{
+
 }

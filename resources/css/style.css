@@ -131,5 +131,35 @@ nav span{
   padding: 10px 20px;
   border-bottom: 1px solid black;
   margin: 0;
+}
 
+footer{
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  justify-content: center;
+  height: 300px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer-info .title{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+footer nav{
+  display: inline-block;
+}
+
+.copyright{
+  display: block;
 }
